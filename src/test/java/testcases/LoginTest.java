@@ -29,4 +29,10 @@ public class LoginTest extends BaseClass {
 		login.LoginFunction("real@abc.com", "RealPwd@1234");
 	}
 
+	@Test
+	public void LoginSuccessTest2() {
+		LoginPage login = new LoginPage(driver);
+		login.LoginFunction("real@abc.com", "RealPwd@1234");
+	}
+
 }
