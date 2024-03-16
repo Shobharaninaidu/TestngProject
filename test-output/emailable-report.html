@@ -9,50 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">52,608</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">65</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m0">TearDown</a></td><td rowspan="1">1709400214733</td><td rowspan="1">211</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">testcases.LoginTest</td><td><a href="#m1">SetUp</a></td><td rowspan="1">1709400214960</td><td rowspan="1">-1709400214960</td></tr><tr class="skippedeven"><td><a href="#m2">TearDown</a></td><td rowspan="1">1709400214977</td><td rowspan="1">-1709400214977</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m3">LoginSuccessTest</a></td><td rowspan="1">1709400214960</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m4">LoginFailureTest</a></td><td rowspan="1">1709400183282</td><td rowspan="1">31445</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.LoginTest</td><td><a href="#m0">SetUp</a></td><td rowspan="1">1710604363695</td><td rowspan="1">5</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">testcases.LoginTest</td><td><a href="#m1">SetUp</a></td><td rowspan="2">1710604363728</td><td rowspan="2">-1710604363728</td></tr><tr class="skippedeven"><td><a href="#m2">SetUp</a></td></tr><tr class="skippedeven"><td><a href="#m3">TearDown</a></td><td rowspan="3">1710604363725</td><td rowspan="3">-1710604363725</td></tr><tr class="skippedeven"><td><a href="#m4">TearDown</a></td></tr><tr class="skippedeven"><td><a href="#m5">TearDown</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">testcases.LoginTest</td><td><a href="#m6">LoginFailureTest</a></td><td rowspan="1">1710604363709</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">LoginSuccessTest</a></td><td rowspan="1">1710604363722</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">LoginSuccessTest2</a></td><td rowspan="1">1710604363729</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testcases.LoginTest#TearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=122.0.6261.95)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-0GFUST29&apos;, ip: &apos;192.168.225.173&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\SHOBHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 83da7042aef55fd44c691221b583f6d3
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at testcases.BaseClass.TearDown(BaseClass.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testcases.LoginTest#SetUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;DriverType&quot; is null
+	at testcases.BaseClass.SetUp(BaseClass.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">testcases.LoginTest#SetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.LoginTest#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcases.LoginTest#LoginSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=122.0.6261.95)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-0GFUST29&apos;, ip: &apos;192.168.225.173&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\SHOBHA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 83da7042aef55fd44c691221b583f6d3
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-	at testcases.BaseClass.TearDown(BaseClass.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases.LoginTest#LoginFailureTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.LoginTest#SetUp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.LoginTest#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.LoginTest#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.LoginTest#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.LoginTest#LoginFailureTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;DriverType&quot; is null
+	at testcases.BaseClass.SetUp(BaseClass.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.LoginTest#LoginSuccessTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;DriverType&quot; is null
+	at testcases.BaseClass.SetUp(BaseClass.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.LoginTest#LoginSuccessTest2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;DriverType&quot; is null
+	at testcases.BaseClass.SetUp(BaseClass.java:93)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
